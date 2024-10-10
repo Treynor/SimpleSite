@@ -1,25 +1,30 @@
 .nav-container {
-    margin-bottom: 20px;
-  }
+  background-color: #2c3e50;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-  .nav-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
-  .nav-item {
-    /* Add any specific styles for list items if needed */
-  }
+.nav-item {
+  /* Add any specific styles for list items if needed */
+}
 
-  .nav-link {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
+.nav-link {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
 
-  .nav-link:hover {
-    color: #007bff;
-  }
+.nav-link:hover {
+  color: #3498db;
+}
