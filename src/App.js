@@ -6,9 +6,11 @@ import Home from './components/Navbar/Home';
 import About from './components/Navbar/About';
 import Contact from './components/Navbar/Contact';
 
+
 function App() {
   return (
     <Router>
+
     <div className="App">
       <nav className="nav-container">
         <ul className="nav-list">
@@ -30,6 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
+
   </Router>
   );
 }
